@@ -1,24 +1,12 @@
 {
 	"name": "fnrepeats-documentation",
 	"version": "0.0.0",
-	"private": true,
 	"main": "lib/index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/corlogix/knock.git"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"author": "corlogixco@gmail.com",
-	"license": "GPL-3.0-or-later",
-	"bugs": {
-		"url": "https://github.com/corlogix/knock/issues"
-	},
-	"homepage": "https://github.com/corlogix/knock#readme",
+	"private": true,
 	"scripts": {
 		"start": "vite",
-		"build": "vite build"
+		"build": "vite build",
+		"clean": "rimraf dist"
 	},
 	"dependencies": {
 		"react": "^17.0.2",
@@ -27,5 +15,18 @@
 	"devDependencies": {
 		"vite": "^2.6.3",
 		"sass": "^1.42.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/corlogix/repeats.git"
+	},
+	"author": "corlogixco@gmail.com",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/corlogix/fnrepeats/issues"
+	},
+	"homepage": "https://corlogix.github.io/repeats/",
+	"publishConfig": {
+		"access": "public"
 	}
 }

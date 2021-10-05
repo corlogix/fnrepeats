@@ -53,7 +53,9 @@ jobs:
         run: npm run build
 
       # PUBLISH
-      - name: Publish
-        run: |
-          npm whoami
-          npm run publish
+      - name: Publish Packages
+        run: npm run publish
+
+      # PUBLISH
+      - name: Publish Pages
+        run: npm run publish-pages

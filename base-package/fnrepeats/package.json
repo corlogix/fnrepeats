@@ -7,22 +7,22 @@
 		"*.js",
 		"*.d.ts"
 	],
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/corlogix/knock.git"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"author": "corlogixco@gmail.com",
-	"license": "GPL-3.0-or-later",
-	"bugs": {
-		"url": "https://github.com/corlogix/knock/issues"
-	},
-	"homepage": "https://github.com/corlogix/knock#readme",
 	"scripts": {
 		"build": "tsc",
 		"test": "nyc mocha src tests",
 		"clean": "rimraf base-package/**/*.js base-package/**/*.js.map base-package/**/*.d.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/corlogix/repeats.git"
+	},
+	"author": "corlogixco@gmail.com",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/corlogix/fnrepeats/issues"
+	},
+	"homepage": "https://corlogix.github.io/repeats/",
+	"publishConfig": {
+		"access": "public"
 	}
 }
