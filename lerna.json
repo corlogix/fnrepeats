@@ -13,6 +13,7 @@
       "changelogPreset": "@pragmatics/preset"
     },
     "publish": {
+      "noVerifyAccess": true,
       "ignoreChanges": [
         "*.md",
         "*.sh"
