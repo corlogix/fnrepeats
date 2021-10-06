@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/corlogix/repeats/compare/fnrepeats@0.1.0...fnrepeats@0.1.1) (2021-10-06)
+
+
+### Bug Fixes
+
+* pipeline ([b39c8bb](https://github.com/corlogix/repeats/commit/b39c8bbe6c696106152341945cbe5a861d9f74dd))
+
+
+
+
+
 ## 0.1.0 (2021-10-06)
 
 
