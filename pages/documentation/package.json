@@ -1,6 +1,6 @@
 {
 	"name": "fnrepeats-documentation",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"main": "lib/index.js",
 	"private": true,
 	"scripts": {
@@ -14,8 +14,8 @@
 	},
 	"devDependencies": {
 		"@vitejs/plugin-react": "^1.0.2",
-		"vite": "^2.6.3",
-		"sass": "^1.42.1"
+		"sass": "^1.42.1",
+		"vite": "^2.6.3"
 	},
 	"repository": {
 		"type": "git",
