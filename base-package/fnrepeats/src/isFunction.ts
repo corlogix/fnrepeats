@@ -1,4 +1,3 @@
-
 /**
  * @name isFunction
  * @description Will determine if `value` is classified as a `Function` object. *
