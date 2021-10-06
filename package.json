@@ -9,7 +9,7 @@
 		"test-all": "lerna run test --stream",
 		"clean": "lerna run clean --stream",
 		"build": "npm run clean && lerna run build --stream",
-		"publish": "lerna publish --yes",
+		"publish": "lerna publish --yes --no-verify-access",
 		"maintain-packages": "node scripts/publish-pages.js",
 		"publish-pages": "npm run build -- --scope fnrepeats-documentation && node scripts/publish-pages.js"
 	},
