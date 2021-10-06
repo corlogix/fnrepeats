@@ -3,6 +3,11 @@ import ReactDOM from "react-dom";
 
 import "./index.scss";
 
+//@ts-ignore
+import data from "/package-data.json";
+
+console.log(data)
+
 const App = () => {
     return <div>
       <p>Hello!</p>

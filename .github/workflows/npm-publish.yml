@@ -52,6 +52,10 @@ jobs:
       - name: Build
         run: npm run build
 
+      # MAINTAIN PACKAGES
+      - name: Maintain Packages
+        run: npm run maintain-packages
+
       # PUBLISH
       - name: Publish Packages
         run: npm run publish

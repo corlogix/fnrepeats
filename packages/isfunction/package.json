@@ -1,17 +1,13 @@
 {
-	"name": "fnrepeats",
+	"name": "fnrepeats.isfunction",
 	"version": "0.0.0",
-	"main": "index.js",
-	"types": "index.d.ts",
 	"files": [
 		"*.js",
+		"*.js.map",
 		"*.d.ts"
 	],
-	"scripts": {
-		"build": "tsc",
-		"test": "nyc mocha src tests",
-		"clean": "rimraf ./*.js ./*.js.map ./*.d.ts"
-	},
+	"main": "index.js",
+	"types": "index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/corlogix/repeats.git"

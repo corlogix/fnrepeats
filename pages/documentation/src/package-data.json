@@ -1,0 +1,45 @@
+[
+	{
+		"fileName": "isFunction",
+		"jsDoc": {
+			"category": {
+				"tag": "@category",
+				"value": "Type Of",
+				"raw": "@category Type Of"
+			},
+			"description": {
+				"tag": "@description",
+				"value": "Will determine if `value` is classified as a `Function` object. *",
+				"raw": "@description Will determine if `value` is classified as a `Function` object. *"
+			},
+			"example": [
+				{
+					"tag": "@example",
+					"value": "console.log ( isFunction(/asdf/) ) // false\r\n\r\nconsole.log( isFunction(class MyClass{}) ) // true\r\n\r\nconsole.log ( isFunction(function * MyFunc() {}) ) // true\r\n\r\nconsole.log ( isFunction(() => {}) ) // true\r\n\r\nconsole.log ( isFunction(async () => {}) ) // true\r\n\r\nconsole.log ( isFunction(Math.random) ) // true",
+					"raw": "@example\r\n\r\nconsole.log ( isFunction(/asdf/) ) // false\r\n\r\nconsole.log( isFunction(class MyClass{}) ) // true\r\n\r\nconsole.log ( isFunction(function * MyFunc() {}) ) // true\r\n\r\nconsole.log ( isFunction(() => {}) ) // true\r\n\r\nconsole.log ( isFunction(async () => {}) ) // true\r\n\r\nconsole.log ( isFunction(Math.random) ) // true"
+				}
+			],
+			"name": {
+				"tag": "@name",
+				"value": "isFunction",
+				"raw": "@name isFunction"
+			},
+			"param": [
+				{
+					"tag": "@param",
+					"type": "*",
+					"name": "value",
+					"description": "The value to check.",
+					"optional": false,
+					"raw": "@param {*} value The value to check."
+				}
+			],
+			"returns": {
+				"tag": "@returns",
+				"type": "boolean",
+				"description": "Returns `true` if `value` is a function, else `false`.",
+				"raw": "@returns {boolean} Returns `true` if `value` is a function, else `false`."
+			}
+		}
+	}
+]
