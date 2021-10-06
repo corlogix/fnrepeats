@@ -8,8 +8,11 @@ import data from "/package-data.json";
 
 console.log(data)
 
+const imgUrl = new URL('./assets/600x600.png', import.meta.url).href
+
 const App = () => {
     return <div>
+      <img src={imgUrl} />
       <p>Hello!</p>
     </div>
 }
