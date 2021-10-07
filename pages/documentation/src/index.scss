@@ -1,0 +1,12 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap-utilities.scss';
+
+* {
+    --bs-primary-rgb: 97, 145, 215;
+    --bs-blue: #6191d7;
+    --bs-primary: #6191d7;
+}
+
+html {
+    background-color: #efefef;
+}
