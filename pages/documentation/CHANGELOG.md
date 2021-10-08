@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/corlogix/repeats/compare/fnrepeats-documentation@0.1.4...fnrepeats-documentation@0.1.5) (2021-10-08)
+
+**Note:** Version bump only for package fnrepeats-documentation
+
+
+
+
+
 ## [0.1.4](https://github.com/corlogix/repeats/compare/fnrepeats-documentation@0.1.3...fnrepeats-documentation@0.1.4) (2021-10-08)
 
 **Note:** Version bump only for package fnrepeats-documentation
