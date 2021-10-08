@@ -1,21 +1,7 @@
-@import 'bootstrap/scss/bootstrap.scss';
-@import 'bootstrap/scss/bootstrap-utilities.scss';
-@import 'highlight.js/scss/atom-one-dark.scss';
-
-* {
-    --bs-primary-rgb: 97, 145, 215;
-    --bs-blue: #6191d7;
-    --bs-primary: #6191d7;
-}
-
-html {
-    background-color: #efefef;
-}
-
-.homebanner {
+.banner {
     background: rgb(160,155,240);
     background: linear-gradient(90deg, rgba(160,155,240,1) 0%, rgba(38,38,180,1) 35%, rgba(0,212,255,1) 100%);
-    justify-content: center;
+    min-height: 150px;
     &:before {
         content: "";
         width: 300px;
