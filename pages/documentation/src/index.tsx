@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router-dom";
 import Aside from './components/Aside';
 import DataProvider from './components/DataProvider';
 import Search from './components/Search';
@@ -23,7 +23,9 @@ const App = () => {
           <div className="d-flex flex-shrink-0 flex-row p-3">
           <Aside />
           <p>Hello!</p>
-          {/* <Routes></Routes> */}
+          <Routes>
+            
+          </Routes>
           </div>
         </div>
     </DataProvider>
